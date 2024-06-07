@@ -5,12 +5,12 @@ on:
       - main
       - stage
     paths:
-      - 'iac-profile/terraform/**'
+      - terraform/**
   pull_request:
     branches:
       - main
     paths:
-      - 'iac-profile/terraform/**'
+      - terraform/**
 
 env:
   # Credentials for deployment to AWS
